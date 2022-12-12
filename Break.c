@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 
+//Take input until the users not given a odd number 
+
 int main()
 {
   int n;
