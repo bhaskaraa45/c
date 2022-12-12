@@ -1,4 +1,5 @@
 #include<stdio.h>
+//print factorial of n
 
 int main(){
 int n,fact=1;
