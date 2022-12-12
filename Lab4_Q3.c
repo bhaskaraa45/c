@@ -17,9 +17,9 @@ int main() {
 
     
     if (og == reversed)
-        printf("true");
+        printf("%d is a palindrome number",n);
     else
-        printf("false");
+        printf("%d is a NOT-palindrome number",n);
 
     return 0;
 }
