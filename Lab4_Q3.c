@@ -1,4 +1,6 @@
 #include <stdio.h>
+//check palindrome number
+
 int main() {
   int n, reversed ,og;
     printf("Enter an integer: ");
