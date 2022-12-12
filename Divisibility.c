@@ -1,4 +1,6 @@
 #include<stdio.h>
+
+//If a%b!=0 then print what min number have to add for a%b==0
 int main(){
 
 
