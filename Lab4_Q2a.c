@@ -1,5 +1,5 @@
 #include<stdio.h>
-//fionacci sequence ... its only valid till n=46 (bcz of int size)
+//fibonacci sequence ... its only valid till n=46 (bcz of int size)
 
 int main(){
 int n;
