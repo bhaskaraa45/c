@@ -5,7 +5,7 @@ int main(){
 int n;
 printf("enter n : ");
 scanf("%d",&n);
-int t=0,t1=1,t2=0;
+int t,t1=1,t2=0;
 
 if(n==1){
     printf("0");
