@@ -12,14 +12,14 @@ scanf("%d",&num2);
 
 
 
-int t,t1=0,t2=1;
+int t,t1=1,t2=1;
 int count1=0,count2=0,term_num1_minus_1 ;
 
-for (int i = 3; i <= 47; i++)
+for (int i = 3; i <= 46; i++)
 {
     t=t1+t2;
-    t1=t12;
-    t2=t;
+    t2=t1;
+    t1=t;
     
     if (num1==t)
     {
