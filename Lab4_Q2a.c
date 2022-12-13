@@ -5,7 +5,7 @@ int main(){
 int n;
 printf("enter n : ");
 scanf("%d",&n);
-int t,t1=1,t2=0;
+int t,t2=1,t1=0;
 
 if(n==1){
     printf("0");
@@ -19,9 +19,9 @@ printf("0\t1\t");
 
 for (int i = 3; i <= n; i++)
 {
-    t=t1+t2;
-    t2=t1;
-    t1=t;
+    t=t2+t1;
+    t1=t2;
+    t2=t;
     printf("%d\t",t);
 }
 
