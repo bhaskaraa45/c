@@ -1,5 +1,5 @@
 #include<stdio.h>
-//fibaonacci sequence ... between 2 terms of a f
+//fibaonacci sequence ... between 2 terms 
 
 int main(){
 int num1,num2;
