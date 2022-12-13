@@ -5,17 +5,17 @@ int main(){
 int n;
 printf("enter n : ");
 scanf("%d",&n);
-int t=0,t1=1,t2=1;
+int t=0,t1=0,t2=1;
 
 if(n==1){
-    printf("1");
+    printf("0");
 }
 else if (n==2)
 {
-    printf("1\t1");
+    printf("0\t1");
 }
 else if(n>2){
-printf("1\t1\t");
+printf("0\t1\t");
 
 for (int i = 3; i <= n; i++)
 {
