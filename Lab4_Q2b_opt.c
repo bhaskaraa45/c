@@ -18,8 +18,8 @@ scanf("%d",&num2);
         smaller=num2;
     } 
     else{
-        greater=num1;
-        smaller=num2;
+        greater=num2;
+        smaller=num1;
     }
 
     //bcz 2nd and 3rd term of fibonacci seq. are 1
