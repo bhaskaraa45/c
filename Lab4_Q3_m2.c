@@ -10,8 +10,7 @@ int main() {
     int input = original;
 
     int n=1;
-    int i;
-    for (i=original;i!=0 ; i/=10)
+    for (int i=original;i!=0 ; i/=10)
     {
         n*=10;
     }
@@ -20,7 +19,7 @@ int main() {
 
 
         int temp=n;
-    for ( i=10 ;i<=n; i*=10)
+    for (int j=10 ;j<=n; j*=10)
     {
         remainder= og%10;
         og = og/10;
