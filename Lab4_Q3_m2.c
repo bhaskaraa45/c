@@ -19,7 +19,7 @@ int main() {
 
 
         int temp=n;
-    for (int i=10 ;i<=n; i*=10)
+    for ( i=10 ;i<=n; i*=10)
     {
         remainder= og%10;
         og = og/10;
