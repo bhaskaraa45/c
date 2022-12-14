@@ -2,7 +2,7 @@
 //fibaonacci sequence ... between 2 terms ...give input in any order
 
 int main(){
-int num1,num2,greater,smaller,nothing;
+int num1,num2,greater,smaller;
 
 //input
 printf("enter a number (greater than 1) : ");
@@ -10,8 +10,19 @@ scanf("%d",&num1);
 printf("now enter the another number (greater than 1) : ");
 scanf("%d",&num2);
 
-num1>=num2? greater=num1 , smaller=num2:num2>num1 ? greater=num2,smaller=num1 :  printf("");
+//num1>=num2? greater=num1 , smaller=num2:num2>num1 ? greater=num2,smaller=num1 :  printf("");
+  
+    //for determine greater and smaller number
+    if(num1>=num2){
+        greater=num1;
+        smaller=num2;
+    } 
+    else{
+        greater=num2;
+        smaller=num1;
+    }
 
+    //bcz 2nd and 3rd term of fibonacci seq. are 1
 if (smaller == 0 || smaller == 1)
 {
     printf("Wrong Input");
@@ -20,7 +31,6 @@ if (smaller == 0 || smaller == 1)
 
 
 else{
-
 
 int t=0,t1=1,t2=1;
 int count1=0,count2=0,term_num1_minus_1 ;
@@ -58,6 +68,7 @@ if (count1!=0 && count2!=0){
     }
     
 }
+    
 else{
     printf("one of them or both are not belongs to fibonacci sequence");
     }
