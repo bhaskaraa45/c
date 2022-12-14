@@ -10,7 +10,8 @@ int main() {
     int input = original;
 
     int n=1;
-    for (int i=original;i!=0 ; i/=10)
+    int i;
+    for (i=original;i!=0 ; i/=10)
     {
         n*=10;
     }
