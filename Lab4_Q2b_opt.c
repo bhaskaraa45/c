@@ -33,7 +33,7 @@ if (smaller == 0 || smaller == 1)
 else{
 
 int t=0,t1=1,t2=1;
-int count1=0,count2=0,term_num1_minus_1 ;
+int count1=0,count2=0,term_smaller_minus_1 ;
 
 for (int i = 3; i <= 46; i++)
 {
@@ -44,7 +44,7 @@ for (int i = 3; i <= 46; i++)
     if (smaller==t)
     {
         count1=i;
-        term_num1_minus_1 = t2;
+        term_smaller_minus_1 = t2;
     }
     
     if (greater==t)
