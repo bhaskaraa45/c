@@ -10,10 +10,6 @@ scanf("%d", &n);
 
 printf("%d term of fibonacci sequence : %d", n , fibonacci(n));
 
-
-//for(int i=1 ; i<= n ; i=i + i - 1)
-
-
   return 0;  
 } 
 
