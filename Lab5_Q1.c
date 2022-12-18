@@ -45,7 +45,6 @@ int fiboSeq(int n){
 }
 
 int termMatching(int x,int y){
-    int temp;
     int count1=0,count2=0;
     if (x<=1 || y<=1)
     {
