@@ -1,16 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
+//fibonacci sequence ... its only valid till n=46 (bcz of int size)
 
 int main(){
-int n , a = 0 , b=1,c=0;
-
+int n;
+printf("enter n : ");
 scanf("%d",&n);
-for(int i=1;i<=n;++i){
-a=b;
-b=c;
-c=a+b;
-printf("%d\t",c);
+int t=0,t1=1,t2=0;
+
+for (int i = 1; i <= n; i++)
+{
+    t=t1+t2;
+    t2=t1;
+    t1=t;
+    printf("%d\t",t);
 }
 
 
-return 0;
+
+
+    return 0;
 }
